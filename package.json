@@ -1,0 +1,38 @@
+{
+  "name": "edf-annotator",
+  "version": "0.0.1",
+  "description": "An annotation library for time series in EDF format.",
+  "main": "lib/main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeschaekermann/edf-annotator.git"
+  },
+  "keywords": [
+    "crowdcurio",
+    "time",
+    "series",
+    "annotation"
+  ],
+  "author": "Mike Schaekermann",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/mikeschaekermann/edf-annotator/issues"
+  },
+  "homepage": "https://github.com/mikeschaekermann/edf-annotator#readme",
+  "dependencies": {
+    "bootbox": "^4.4.0",
+    "bootstrap": "^3.3.7",
+    "crowdcurio-client": "0.0.7",
+    "highcharts": "^6.0.3",
+    "highcharts-annotations": "^1.3.1",
+    "jquery": "^3.2.1",
+    "jquery-ui-browserify": "^1.11.0-pre-seelio",
+    "yt-player": "^2.5.3"
+  }
+}
